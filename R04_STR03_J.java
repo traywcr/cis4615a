@@ -1,5 +1,6 @@
 // Cody Traywick
 // Rule 04.  Characters and Strings (STR)
+// STR03-J. Do not encode noncharacter data as a string
 
 public class R04_STR03_J
 {
