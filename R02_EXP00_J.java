@@ -1,5 +1,6 @@
 // Cody Traywick
 // Rule 02.  Expressions (EXP)
+// EXP00-J. Do not ignore values returned by methods
 
 public class R02_EXP00_J
 {
