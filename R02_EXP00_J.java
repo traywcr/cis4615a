@@ -1,7 +1,7 @@
 // Cody Traywick
 // Rule 02.  Expressions (EXP)
 
-public class IDS03-J
+public class R02_EXP00_J
 {
   public void deleteFile()
   {
