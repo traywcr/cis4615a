@@ -13,11 +13,12 @@ public class IDS03-J
     {
       logger.severe("User login failed for: " + sanitizeUser(username));
     }
-  }
-  // Prevents injection attacks
-  public String sanitizeUser(String username) 
-  {
-  return Pattern.matches("[A-Za-z0-9_]+", username))
+    // Prevents injection attacks
+    public String sanitizeUser(String username) 
+    {
+    return Pattern.matches("[A-Za-z0-9_]+", username))
       ? username : "unauthorized user";
+    }
   }
+  
 }
