@@ -6,7 +6,7 @@ public class R08_VNA00_J
 {
   final class ControlledStop implements Runnable
   {
-    private volatile boolean done = false;
+    private boolean done = false;
 
     @Override public void run()
     {
