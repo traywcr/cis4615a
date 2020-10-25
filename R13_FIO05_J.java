@@ -16,7 +16,7 @@ public class R13_FIO05_J
 
     public CharBuffer getBufferCopy()
     {
-      return CharBuffer.wrap(dataArray).asReadOnlyBuffer();
+      return CharBuffer.wrap(dataArray);
     }
   }
 }
